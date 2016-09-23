@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="30%p">
+    <Row>
+        <Key android:keyLabel="○" android:keyEdgeFlags="left"/>
+        <Key android:keyLabel="●"/>
+        <Key android:keyLabel="□"/>
+        <Key android:keyLabel="■"/>
+        <Key android:keyLabel="△"/>
+        <Key android:keyLabel="▲"/>
+        <Key android:keyLabel="▽"/>
+        <Key android:keyLabel="▼"/>
+        <Key android:keyLabel="☆"/>
+        <Key android:keyLabel="★" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:keyLabel="™" android:keyEdgeFlags="left"/>
+        <Key android:keyLabel="☏"/>
+        <Key android:keyLabel="☎"/>
+        <Key android:keyLabel="&#169;"/><!--ⓒ-->
+        <Key android:keyLabel="♪"/>
+        <Key android:keyLabel="♬"/>
+        <Key android:keyLabel="♧" />
+        <Key android:keyLabel="♣" />
+        <Key android:keyLabel="♤"/>
+        <Key android:keyLabel="♠" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="55003" android:keyLabel="3/3" android:keyEdgeFlags="left" android:keyWidth="15%p"/>
+        <Key android:keyLabel="&#176;"/><!--°-->
+        <Key android:keyLabel="α"/><!--alpha-->
+        <Key android:keyLabel="β"/><!--beta-->
+        <Key android:keyLabel="γ"/><!--gamma-->
+        <Key android:keyLabel="θ"/><!--theta-->
+        <Key android:keyLabel="Σ"/><!--sigma-->
+        <Key android:keyLabel="Ω"/><!--omega-->
+        <Key android:codes="-5" android:keyIcon="@drawable/backs" android:keyWidth="15%p"
+            android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="55000" android:keyLabel="abc" android:keyWidth="10%p" android:keyEdgeFlags="left" />
+        <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="60%p" android:isRepeatable="true"/>
+        <Key android:codes="46," android:keyLabel="." android:keyWidth="10%p"/>
+        <Key android:codes="-4" android:keyIcon="@drawable/enters" android:keyWidth="20%p" android:keyEdgeFlags="right"/>
+    </Row>
+
+</Keyboard>
